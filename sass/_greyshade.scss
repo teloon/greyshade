@@ -6,7 +6,7 @@ html {
 
 body {
 	background: #3D4349;
-	font-family: "Open Sans", "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family: "ff-tisa-web-pro",Georgia,Cambria,"Times New Roman",Times,serif ;
 	height: 100%;
 }
 
@@ -19,8 +19,9 @@ body {
 	height: auto;
 	border-bottom: none;
 	.subtitle {
-		color: #999;
+        color: $color-gray06;
 		font-style: italic;
+        font-size: 18px;
 	}
 	#sub-nav {
 		float: none;
@@ -75,7 +76,7 @@ body {
 		position: absolute;
   		right: 0;
   		min-height: 100%;
-		width: 77%;
+		width: 70%;
 		background: white;
 		#banner {
 			width: 100%;
@@ -171,7 +172,7 @@ body {
 		opacity: 1;
 	}
 	.left-col {
-		width: 23%;
+		width: 30%;
 		position: fixed;
 		opacity: .3;
 		-webkit-transition: all .2s ease-in;
@@ -183,11 +184,17 @@ body {
 		.intrude-less {
 			width: 80%;
 		}
+        .aboutme {
+            color: $color-gray06;
+            line-height: 1.2em;
+            margin-top: 12px;
+        }
 		#header {
 			width: 100%;
-			padding: 20% 0% 0% 15%;
+			padding: 20% 0% 0% 23%;
 			#main-nav {
 				margin-top: 10px;
+                font-size: 18px;
 			}
 			.profilepic {
 				img {
