@@ -6,10 +6,10 @@ $max-width: 1000px;
 }
 body{
 	font-family: $font-default;
-	font-weight: 300;
-	font-size: 14px;
+	font-weight: 200;
+	font-size: 15px;
 	background: $color-background;
-	color: $color-gray01;
+	color: $color-gray06;
 	@media screen and (max-width: 1040px){
 		margin: 0 20px;
 	}
@@ -18,13 +18,13 @@ body{
 	}
 }
 h1{
-	font-size: 1.8em;
+	font-size: 35px;
 }
 h2{
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
 h3{
-	font-size: 1.3em;
+	font-size: 1.1em;
 }
 a{
 	text-decoration: none;
